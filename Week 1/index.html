@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Mountain Mystery Box</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+       
+       <h1>Welcome to Mountain Mystery Box</h1>     <!--Main heading for contact page. This is a website that allows the user to purchase a mystery box that includes different outdoor items.-->
+       
+        <div>
+            <ul>    <!--An un-ordered list that includes links to the contact and about pages-->
+
+                 <li>
+         <a href="contact.html"> Contact</a> 
+                </li>
+                <li>
+         <a href="about.html"> About</a> <br><br>
+                </li>
+            </ul>
+        
+         <h2>Your mountain mystery box is waiting for you!<h2>
+        </div> <br>
+
+        <img src="https://expertvagabond.com/wp-content/uploads/backpacking-gear-checklist-guide.jpg"
+        alt="A beautiful mountain vista"
+        height="400px"> <br><br>
+
+         <div>
+            <p>Tell us a little about yourself below so we can send you a mystery box customized just for you! Whether you love backpacking, camping, alpine climbing, rock climbing, watersports, or are just a casual hiker, we will send you a mountain mystery box that includes five high quality outdoor items chosen by our team of outdoor enthusiasts.</p>
+            <hr>
+            <h3>Make one or more selections</h3>    <!--This is where the user can start making selections on what type of mystery they want-->
+           
+            <div>
+            <form>  <!--This form includes different user selections-->
+            
+            <input type="checkbox" id="backpacking" name="preference" value="backpacking"/>
+            <label for="backpacking">Backpacking</label> <br>
+            <input type="checkbox" id="camping" name="preference" value="camping"/>
+            <label for="camping">Camping</label> <br>
+            <input type="checkbox" id="alpine climbing" name="preference" value="alpine climbing"/>
+            <label for="alpine climbing">Alpine Climbing</label> <br>
+            <input type="checkbox" id="rock climbing" name="preference" value="rock climbing"/>
+            <label for="rock climbing">Rock Climbing</label> <br>
+            <input type="checkbox" id="water sports" name="preference" value="water sports"/>
+            <label for="water sports">Water Sports</label> <br>
+            <input type="checkbox" id="hiking" name="preference" value="hiking"/>
+            <label for="hiking">Hiking</label> <br><br>
+            </div>
+
+            <p>You can choose between a <b>bronze</b>, <b>silver</b>, or <b>gold</b> mystery box. Although all of our mystery box items are high quality, the higher the box tier, the better the items!</p>
+            
+            <table> <!--This table displays different mystery boxes and prices-->
+                <table style="width: 25%;" 
+                <table border="1"/>
+                <tr>
+                    <th style="width: 50%;">Tier</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Bronze</td>
+                    <td>$25</td>
+                </tr>
+                <tr>
+                    <td>Silver</td>
+                    <td>$50</td>
+                </tr>
+                <tr>
+                    <td>Gold</td>
+                    <td>$100</td>
+                </tr>
+             </table> <br>
+
+             <h3>Please select a box tier-</h3> <!--Here the user can select which box tier they want-->
+
+             <input type="radio" name="box tier" value="Bronze"> Bronze <br> 
+             <input type="radio" name="box tier" value="Silver"> Silver <br>
+             <input type="radio" name="box tier" value="Gold"> Gold <br>
+            
+             <img src="data:image/jpeg;base64,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"
+            alt="A picture of a mystery box"
+            height="300px"> <br>
+
+            <h3>Shipping Information</h3> <!--Shipping/payment inputs for the customer-->
+            <input type="text" name="firstName" placeholder="First Name"> <br>
+            <input type="text" name="lastName" placeholder="Last Name"> <br>
+            <input type="text" name="email" placeholder="Email"> <br>
+            <input type="text" name="phone" placeholder="Phone Number"> <br>
+            <input type="text" name="address" placeholder="Address"> <br>
+            <input type="text" name="creditCard" placeholder="Credit Card Number"> <br>
+            <br>
+            <button>
+                <input type="submit">
+            </button> 
+            
+            </form> <br><br>
+
+            <img src="https://i0.wp.com/www.eastwestquest.com/wp-content/uploads/2017/12/IMG_1977-1.jpg?resize=1024%2C632"
+            width="70%"
+            
+         </div> <br><br><br>
+
+         <hr>
+
+         <footer>Created by Mountain Mystery Box 2024</footer> 
+
+       
+       
+        <script src="" async defer></script>
+    </body>
+</html>
