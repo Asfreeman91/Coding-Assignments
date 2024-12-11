@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+}
+
+#navbar {
+    height: 5vh;
+    background-color: #333;
+    width: 100%;
+    padding: 6px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: fixed;
+    
+}
+
+.nav-list{
+list-style: none;
+}
+
+.nav-list li{
+   display: inline;
+   margin: 0 10px;
+}
+
+.nav-list a{
+    text-decoration: none;
+    color: white;
+}
+
+.landing{
+    height: 80vh;
+    border: 1px solid black;
+    background-image: url(https://expertvagabond.com/wp-content/uploads/backpacking-gear-checklist-guide.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.landing h1{
+    font-size: 3.5rem;
+    text-shadow: darkgray 1px 0px 10px;
+}
+
+.main-content{
+    height: 100vh;
+    padding-top: 60px;
+    text-align: center;
+
+}
+
+#about{
+    background-color: green;
+}
+
+#home{
+    background-color: aqua;
+}
+
+#second-header{
+    padding-top: 0px;
+}
+
+table {
+    margin: auto;
+    margin-top: -80px;
+    width: 35%;
+    height: 20vh;
+    table-layout: auto;
+    
+}
+
+h2{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+h3{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p,li{
+    font-size: 20px;
+}
+
+.special-img{
+    display: block;
+    margin:auto;
+    border-radius: 1rem;
+    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.5);  
+    
+}
+
+footer{
+    text-align: center;
+}
+
+.preference-form {
+    display: flex;
+    font-size: 20px;
+   flex-direction: column;
+   justify-content: center;
+   
+    
+}
+
+#mystery-box{
+    padding: 10px;
+}
+
+#table{
+    width:200%;
+    margin-left: 25%;
+    font-size: 20px;
+    padding:25px;
+}
+
+
+
+
