@@ -21,7 +21,6 @@ body{
     justify-content: center;
     color: white;
     position: fixed;
-    
 }
 
 .nav-list{
@@ -54,7 +53,7 @@ list-style: none;
 
 .landing h1{
     font-size: 3.5rem;
-    text-shadow: darkgray 1px 0px 10px;
+    text-shadow: rgb(70, 70, 70) 2px 0px 5px;
 }
 
 .main-content{
@@ -64,20 +63,22 @@ list-style: none;
 }
 
 #about{
-    background-color: green;
+    background-color: rgb(84, 64, 102);
+    color: white;
 }
 
 #main{
     background-color: cadetblue;
-    
 }
 
 #contact{
-    background-color: blueviolet;
+    background-color: rgb(170, 77, 0);
+    color: white;
 }
 
 #second-header{
     padding-top: 0px;
+    margin-top: -20px;
 }
 
 #section-2{
@@ -99,6 +100,7 @@ table {
     align-items: center;
     line-height: 50px;
     margin-top: -20px;
+    border: 2px solid black;
 }
 
 h2{
@@ -119,7 +121,6 @@ footer{
     display: flex;
     font-size: 20px;
    flex-direction: column;
-   justify-content: center;   
 }
 
 #box-tier-div input{
@@ -127,7 +128,6 @@ footer{
     margin-top: -20px;
     text-align: right;
     margin-inline: 10px;
-    
 }
 
 #box-tier-div{
@@ -161,7 +161,7 @@ margin-top: 25px;
 width: 30%;
 height: 60px;
 justify-content: center;
-border: solid black;
+border: 1px solid black;
 }
 
 .form button{
@@ -171,20 +171,20 @@ border: solid black;
     background: none;  
     outline: 0;
     border-style: none;
-    
 }
 
 .images{
-    box-shadow: 5px 5px 20px 5px darkslategray;
+    box-shadow: 5px 5px 20px 10px darkslategray;
     border-radius: 1rem;
 }
 
 #pref-div{
     background-color: rgb(240, 195, 59);
-    margin: 0px 600px;
+    margin: 0px 526px;
     padding-top: 35px;
-    padding-left: 10px;
-    border-radius: 2rem;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 2px black solid;
 }
 
 .image-div #alpine, #rockclimb, #mysterybox{
@@ -209,9 +209,54 @@ border: solid black;
 }
 
 .form h2{
-    text-shadow: rgb(0, 2, 15) 1px 0px 10px;
+    text-shadow: rgb(0, 2, 15) 1px 0px 30px;
     color: white;
 }
+
+footer{
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+#about, #contact h1{
+    font-size: 2rem;
+    text-shadow: rgb(70, 70, 70) 2px 0px 5px;
+}
+
+.about-contact-p{
+    font-size: 20px;
+}
+
+#about img{
+    margin-top: -30px;
+    border-radius: 1rem;
+    box-shadow: 0px 1px 10px 1px rgb(30, 49, 49);
+}
+
+#about a{
+    color: white;
+    font-size: 20px;
+}
+
+#contact h1{
+    font-size: 3rem;
+    text-shadow: rgb(70, 70, 70) 2px 0px 5px;
+}
+
+#contact form{
+    width: 20%;
+    height: 20px;
+}
+
+
+
+
+
 
 
 
