@@ -109,10 +109,6 @@ h3{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-p,li{
-    font-size: 20px;
-}
-
 footer{
     text-align: center;
 }
@@ -124,13 +120,7 @@ footer{
    justify-content: center;   
 }
 
-#pref-div{
-    background-color: rgb(240, 195, 59);
-    margin: 0px 600px;
-    padding-top: 35px;
-    padding-left: 10px;
-    border-radius: 2rem;
-}
+
 
 #box-tier-div input{
     display: inline-block;
@@ -178,6 +168,24 @@ justify-content: center;
     box-shadow: 5px 5px 20px 5px darkslategray;
     border-radius: 1rem;
 }
+
+#pref-div{
+    background-color: rgb(240, 195, 59);
+    margin: 0px 600px;
+    padding-top: 35px;
+    padding-left: 10px;
+    border-radius: 2rem;
+}
+
+.image-div #alpine, #rockclimb, #mysterybox{
+    margin: 0px 10px;
+}
+
+#mysterybox{
+    margin-right: 20px;
+}
+
+
 
 
 
