@@ -28,12 +28,12 @@
 
             <main>
                 
-                <section class="main-content" id="home" a href="index.html">
-                    <h2 id="second-header">Tell us a little about yourself</h2><br>
-                   
+                <section class="main-content" id="main" a href="index.html">
+                    <h2 id="second-header">Tell us a little about yourself</h2><br><br>
                         <p>Tell us a little about yourself below so we can send you a mystery box customized just for you! Whether you love backpacking, camping, alpine climbing, rock climbing, watersports, or are just a casual hiker, we will send you a mountain mystery box that includes five high quality items chosen by our team of outdoor enthusiasts.</p><br><br>
             
-                        <h3>Make one or more selections</h3><br>    <!--This is where the user can start making selections on what type of mystery box they want-->
+                        <div id="pref-div" >
+                        <h3>Make one or more selections</h3><br><br>   <!--This is where the user can start making selections on what type of mystery box they want-->
                         
                         <form class="preference-form">
                         <input type="checkbox" id="backpacking" name="preference" value="backpacking"/>
@@ -51,8 +51,9 @@
                         <input type="checkbox" id="hiking" name="preference" value="hiking"/>
                         <label for="hiking">Hiking</label> <br><br>
                         </form>
+                        </div><br><br>
 
-                        <p>You can choose between a <b>bronze</b>, <b>silver</b>, or <b>gold</b> mystery box. Although all of our mystery box items are high quality, the higher the box tier, the better the items!</p>
+                        <p>You can choose between a <b>bronze</b>, <b>silver</b>, or <b>gold</b> mystery box. Although all of our mystery box items are high quality, the higher the box tier, the better the items!</p><br><br>
                         
                         <table> <!--This table displays different mystery boxes and prices-->
                             <body>
@@ -75,45 +76,51 @@
                             </tr>
                             </body>
                          </table>
-            
-                         <h3>Please select a box tier-</h3> <!--Here the user can select which box tier they want-->
+                </section>
+                    <section id="section-2">
+                         <h3>Please select a box tier-</h3><br><br> <!--Here the user can select which box tier they want-->
                          
-                         <input type="radio" name="box tier" value="Bronze"> Bronze <br> 
-                         <input type="radio" name="box tier" value="Silver"> Silver <br>
+                        <div id="box-tier-div">
+                         <input type="radio" name="box tier" value="Bronze"> Bronze <br><br>
+                         <input type="radio" name="box tier" value="Silver"> Silver <br><br>
                          <input type="radio" name="box tier" value="Gold"> Gold <br>
+                        </div>
             
-            
-                         <img id="mystery-box" src="https://mini-marvels.nl/cdn/shop/files/DALL_E2024-01-1006.35.17-Craftanimageofaclosedmysterybox_tailoredforanonlinestorethatsellsminiaturesandhobbysupplies.Theboxshouldexudeluxuryandenigma_3f1c78aa-24ee-4fcb-8d0a-78be4b884401.png?v=1704867854"
+                         <img class="images" src="https://mini-marvels.nl/cdn/shop/files/DALL_E2024-01-1006.35.17-Craftanimageofaclosedmysterybox_tailoredforanonlinestorethatsellsminiaturesandhobbysupplies.Theboxshouldexudeluxuryandenigma_3f1c78aa-24ee-4fcb-8d0a-78be4b884401.png?v=1704867854"
                         alt="A picture of a mystery box"
-                        height="400px"> <br>
+                        height="400px"><br><br><hr>
             
-                        <form class="form"> 
-                        <h3>Shipping Information</h3> <!--Shipping/payment inputs for the customer-->
+                      
+                        <form class="form"><br>
+                        <h2>~ Shipping Info ~</h2><br><br> <!--Shipping/payment inputs for the customer-->
+                        <div id="form-div">
                         <input type="text" name="firstName" placeholder="First Name"> <br>
                         <input type="text" name="lastName" placeholder="Last Name"> <br>
                         <input type="text" name="email" placeholder="Email"> <br>
                         <input type="text" name="phone" placeholder="Phone Number"> <br>
                         <input type="text" name="address" placeholder="Address"> <br>
                         <input type="text" name="creditCard" placeholder="Credit Card Number"> <br>
-                        <br>
+                         </div>
                         <button>
                             <input type="submit">
-                        </button> 
-                        
-                        </form> <br><br>
-            
-                        <img class="special-img" src="https://i0.wp.com/www.eastwestquest.com/wp-content/uploads/2017/12/IMG_1977-1.jpg?resize=1024%2C632"
-                        width="70%"
-                        
-                </section>
-                
+                        </button><br><br>
+                       
+
+                        <img class="images" src="https://i0.wp.com/www.eastwestquest.com/wp-content/uploads/2017/12/IMG_1977-1.jpg?resize=1024%2C632"
+                        width="50%"
+                         </form> <br><br>
+
+                    </section>
+               
                 <section class="main-content" id="about" a href="about.html">
                     <h2>About Mountain Mystery Box</h2>
                 </section>
-                
+              
+
                 <section class="main-content" id="contact" a href="contact.html">
                     <h2>Contact Us</h2>
                 </section>
+              
             </main>
 
         </div> 
@@ -123,9 +130,7 @@
 
          <footer>Created by Mountain Mystery Box 2024</footer> 
 
-       
-       
-        <script src="" async defer></script>
+       <script src="" async defer></script>
     </body>
     
 </html>

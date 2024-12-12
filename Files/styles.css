@@ -61,28 +61,42 @@ list-style: none;
     height: 100vh;
     padding-top: 60px;
     text-align: center;
-
 }
 
 #about{
     background-color: green;
 }
 
-#home{
-    background-color: aqua;
+#main{
+    background-color: cadetblue;
+    
+}
+
+#contact{
+    background-color: blueviolet;
 }
 
 #second-header{
     padding-top: 0px;
 }
 
+#section-2{
+    background-color: cadetblue;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: -80px;
+}
+
 table {
     margin: auto;
-    margin-top: -80px;
-    width: 35%;
-    height: 20vh;
+    width: 40%;
     table-layout: auto;
-    
+    background-color: rgb(240, 195, 59);  
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    line-height: 50px;
 }
 
 h2{
@@ -99,14 +113,6 @@ p,li{
     font-size: 20px;
 }
 
-.special-img{
-    display: block;
-    margin:auto;
-    border-radius: 1rem;
-    box-shadow: 6px 6px 4px rgba(0, 0, 0, 0.5);  
-    
-}
-
 footer{
     text-align: center;
 }
@@ -115,9 +121,30 @@ footer{
     display: flex;
     font-size: 20px;
    flex-direction: column;
-   justify-content: center;
-   
+   justify-content: center;   
+}
+
+#pref-div{
+    background-color: rgb(240, 195, 59);
+    margin: 0px 600px;
+    padding-top: 35px;
+    padding-left: 10px;
+    border-radius: 2rem;
+}
+
+#box-tier-div input{
+    display: inline-block;
+    margin-top: -20px;
+    text-align: right;
+    margin-inline: 10px;
     
+}
+
+#box-tier-div{
+    margin-top: auto;
+    text-align: right;
+    justify-content: center;
+    display: flex; 
 }
 
 #mystery-box{
@@ -129,6 +156,27 @@ footer{
     margin-left: 25%;
     font-size: 20px;
     padding:25px;
+}
+
+label {
+    display: inline-block;
+    margin-top: -20px;
+    text-align: right;
+    width: 250px;
+}
+
+#form-div input{
+margin: auto;
+margin-top: -10px;
+width: 150px;
+width: 25%;
+height: 50px;
+justify-content: center;
+}
+
+.images{
+    box-shadow: 5px 5px 20px 5px darkslategray;
+    border-radius: 1rem;
 }
 
 
