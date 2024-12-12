@@ -86,6 +86,7 @@ list-style: none;
     text-align: center;
     flex-wrap: wrap;
     margin-top: -80px;
+    height: 116vh;
 }
 
 table {
@@ -97,6 +98,7 @@ table {
     text-align: center;
     align-items: center;
     line-height: 50px;
+    margin-top: -20px;
 }
 
 h2{
@@ -119,8 +121,6 @@ footer{
    flex-direction: column;
    justify-content: center;   
 }
-
-
 
 #box-tier-div input{
     display: inline-block;
@@ -157,11 +157,21 @@ label {
 
 #form-div input{
 margin: auto;
-margin-top: -10px;
-width: 150px;
-width: 25%;
-height: 50px;
+margin-top: 25px;
+width: 30%;
+height: 60px;
 justify-content: center;
+border: solid black;
+}
+
+.form button{
+    margin: 20px 0;
+    size: 10px;
+    width: 15%;
+    background: none;  
+    outline: 0;
+    border-style: none;
+    
 }
 
 .images{
@@ -184,6 +194,30 @@ justify-content: center;
 #mysterybox{
     margin-right: 20px;
 }
+
+.form{
+    background-image: url(https://i0.wp.com/www.eastwestquest.com/wp-content/uploads/2017/12/IMG_1977-1.jpg?resize=1024%2C632);
+    background-size: cover;
+    margin-bottom: -30px;
+    height: 90%;
+    display: block;
+}
+
+.form img{
+    margin: 10px 10px;
+    height: 80%;
+}
+
+.form h2{
+    text-shadow: rgb(0, 2, 15) 1px 0px 10px;
+    color: white;
+}
+
+
+
+
+
+
 
 
 
