@@ -8,6 +8,7 @@
 body{
     font-size: 20px;
     font-family: Arial, sans-serif;
+   
 }
 
 #navbar {
@@ -56,15 +57,25 @@ list-style: none;
     text-shadow: rgb(70, 70, 70) 2px 0px 5px;
 }
 
+.landing h2{
+    text-shadow: rgb(70, 70, 70) 5px 0px 5px;
+}
+
 .main-content{
     height: 100vh;
     padding-top: 60px;
     text-align: center;
 }
 
+#main{
+    height: 210vh;
+}
+
 #about{
     background-color: rgb(84, 64, 102);
     color: white;
+    height: 115vh;
+    
 }
 
 #main{
@@ -81,15 +92,6 @@ list-style: none;
     margin-top: -20px;
 }
 
-#section-2{
-    background-color: cadetblue;
-    justify-content: center;
-    text-align: center;
-    flex-wrap: wrap;
-    margin-top: -80px;
-    height: 116vh;
-}
-
 table {
     margin: auto;
     width: 40%;
@@ -101,6 +103,7 @@ table {
     line-height: 50px;
     margin-top: -20px;
     border: 2px solid black;
+    border-radius: 1rem;
 }
 
 h2{
@@ -185,6 +188,7 @@ border: 1px solid black;
     padding-left: 15px;
     padding-right: 15px;
     border: 2px black solid;
+    border-radius: 1rem;
 }
 
 .image-div #alpine, #rockclimb, #mysterybox{
@@ -196,7 +200,6 @@ border: 1px solid black;
 }
 
 .form{
-    background-image: url(https://i0.wp.com/www.eastwestquest.com/wp-content/uploads/2017/12/IMG_1977-1.jpg?resize=1024%2C632);
     background-size: cover;
     margin-bottom: -30px;
     height: 90%;
@@ -215,11 +218,8 @@ border: 1px solid black;
 
 footer{
     font-size: 15px;
+    margin-bottom: 5000px;
 }
-
-
-
-
 
 
 
@@ -243,15 +243,76 @@ footer{
     font-size: 20px;
 }
 
-#contact h1{
-    font-size: 3rem;
-    text-shadow: rgb(70, 70, 70) 2px 0px 5px;
+#about body{
+height: 210vh;
 }
 
-#contact form{
-    width: 20%;
-    height: 20px;
+footer{
+    margin-top: 110px;
+}  
+
+.landing-contact{
+    height: 80vh;
+    border: 1px solid black;
+    background-image: url(https://i.natgeofe.com/n/1ac334a0-ac4e-4745-a292-169b0a349e8b/grand-peaks-mount-cook.jpg);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;  
 }
+
+.landing-contact h1{
+    font-size: 3.5rem;
+    text-shadow: rgb(70, 70, 70) 5px 0px 5px;
+}
+
+.landing-contact h2{
+    text-shadow: rgb(70, 70, 70) 5px 0px 5px;
+}
+
+.contact{
+    height: 30vh;
+    background-color: #fd7c7c;
+    margin-top: -40px;
+  
+}
+
+.contact p{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 23px;
+}
+
+.contact form{
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    width: 20%;
+   height: 50%;
+}
+
+#contact-form input{
+    width: 80%;  
+}
+
+   
+    
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
