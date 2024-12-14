@@ -1,3 +1,6 @@
+
+/*----------------Main page------------------*/
+
 *{
     margin: 0;
     padding: 0;
@@ -5,9 +8,18 @@
     scroll-behavior: smooth;
 }
 
+.container{
+    width: 100%;
+    height: 100%;
+    min-width: 1000px;
+    min-height: 1000px;
+}
+
 body{
     font-size: 20px;
     font-family: Arial, sans-serif;
+    height: 100vh;
+    margin-bottom: 0;
    
 }
 
@@ -38,6 +50,10 @@ list-style: none;
     color: white;
 }
 
+#navbar a:hover {
+    color: aquamarine;
+}
+
 .landing{
     height: 80vh;
     border: 1px solid black;
@@ -65,22 +81,17 @@ list-style: none;
     height: 100vh;
     padding-top: 60px;
     text-align: center;
+    margin-bottom: 0;
 }
 
 #main{
-    height: 265vh;
-    padding-bottom: 180vh;
-}
-
-#about{
-    background-color: rgb(84, 64, 102);
-    color: white;
-    height: 135vh;
-    
-}
-
-#main{
+    max-height: 100%;
+    max-width: 100%;
+    padding-bottom: 210vh;
     background-color: cadetblue;
+    background-size: 100%;
+    background-position: fixed;
+    margin-bottom: 0;
 }
 
 #second-header{
@@ -115,6 +126,9 @@ h3{
 footer{
     text-align: center;
     color: black;
+    position: relative;
+    bottom: 0;
+    justify-content: center;
 }
 
 .preference-form {
@@ -161,7 +175,13 @@ margin-top: 25px;
 width: 30%;
 height: 60px;
 justify-content: center;
-border: 1px solid black;
+border: 2px solid black;
+background-color: rgb(240, 195, 59);
+}
+
+#main form{
+    display: flex;
+    flex-direction: column;
 }
 
 .form button{
@@ -212,9 +232,27 @@ border: 1px solid black;
     color: black;
 }
 
+footer{
+    margin-top: 5px;
+    font-size: 10px;
+    bottom: 0;
+    position: fixed;
+}  
+
+/*-------------About Page----------------------*/
+
 #about, #contact h1{
     font-size: 2rem;
     text-shadow: rgb(70, 70, 70) 2px 0px 5px;
+}
+
+#about{
+    background-color: rgb(84, 64, 102);
+    color: white;
+    height: 110vh;
+    background-size: cover;
+    max-height: 100%;
+    
 }
 
 .about-contact-p{
@@ -232,10 +270,7 @@ border: 1px solid black;
     font-size: 20px;
 }
 
-footer{
-    margin-top: 5px;
-    font-size: 10px;
-}  
+/*------------------------Contact Page--------------------*/
 
 .landing-contact{
     height: 80vh;
@@ -261,7 +296,7 @@ footer{
 }
 
 .contact{
-    height: 40vh;
+    height: 30vh;
     background-color: #f49292;
     margin-top: -40px;
 
@@ -285,6 +320,7 @@ footer{
 #contact-form input{
     width: 80%;  
 }
+
 
 
 
